@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap");
+
+:root {
+    --bg-root: #1b2431;
+    --color-font-1: #fff;
+    --color-font-2: #75849c;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Poppins", sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 16px;
+
+    background-color: var(--bg-root);
+    color: var(--color-font-1);
+}
+
+/* Header NavLinks */
+.active {
+    color: #afb5bb;
+    text-decoration: underline;
+}

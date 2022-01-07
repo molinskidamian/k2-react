@@ -1,0 +1,30 @@
+$bg-blue: #2ba0f6;
+$radius: 0.25rem;
+
+.btn {
+    border: none;
+    outline: none;
+    border-radius: $radius;
+    background-color: $bg-blue;
+    color: #fff;
+}
+
+.input {
+    min-width: 40vw;
+    padding: 0.5rem;
+    border-radius: $radius;
+    background-color: #273142;
+    border: 1px solid #313d4f;
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+input:focus,
+input:active {
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    color: #7c8ca5;
+}

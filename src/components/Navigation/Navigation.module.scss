@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    list-style: none;
+}
+.navItem {
+    padding-left: 1.5rem;
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &Link {
+        color: #f0f6fc;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 0.9rem;
+
+        &:hover {
+            color: #afb5bb;
+        }
+
+        &Active {
+            color: yellow;
+        }
+    }
+}

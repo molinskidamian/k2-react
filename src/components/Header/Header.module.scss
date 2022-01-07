@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    display: flex;
+    // justify-content: flex-end;
+    background-color: #0d1116;
+    border: 1px solid #30363d;
+    border-radius: 0.4rem;
+
+    button {
+        background-color: #21262d;
+        color: #c9d1d9;
+        border: 1px solid #363b42;
+        border-radius: 0.3rem;
+        padding: 0.5rem 1rem;
+    }
+}

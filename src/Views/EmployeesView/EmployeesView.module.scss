@@ -1,0 +1,16 @@
+.wrapper {
+    .menu {
+        // outline: 1px solid red;
+        display: flex;
+        justify-content: flex-end;
+        margin: 2rem 1rem;
+    }
+
+    button {
+        background-color: #21262d;
+        color: #c9d1d9;
+        border: 1px solid #363b42;
+        border-radius: 0.3rem;
+        padding: 0.5rem 1rem;
+    }
+}
